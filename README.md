@@ -2,30 +2,31 @@
 
 ## Introduction
 
-This project explores **Linear Regression** and **Logistic Regression**, two fundamental techniques in machine learning and data analysis. 
+This paper highlights the basics of two such techniques known as **Linear Regression** and **Logistic Regression**. These are two of the most critical techniques in machine learning and data analysis.
 
-- **Linear Regression**: A supervised learning algorithm that predicts a continuous dependent variable based on one or more independent variables. It assumes a linear relationship between the input features and the target variable.
-  
-- **Logistic Regression**: A classification algorithm used to predict the probability of a binary outcome. Unlike linear regression, logistic regression predicts discrete values (such as 0 or 1) and uses a sigmoid function to model the probability of an event.
+- **Linear Regression**: This is a supervised learning algorithm that makes predictions on continuous output based on one or multiple input variables. It assumes a linear relationship between input features and target outputs.
+
+- **Logistic Regression**: one class of algorithms where the outcomes will depict how likely it is that something might happen or not. Logistic regression does differ with linear regression since, instead of predicting a value, it predicts discrete values like 0 or 1, and it uses the sigmoid function to approximate an event's probability.
 
 ## Dataset Description
 
 ### Dataset 1: Iris Dataset
-- **Type**: Continuous (can be used for both classification and regression tasks)
+- **Type**: Continous (both classification and regression tasks are allowed)
 - **Features**: Sepal length, Sepal width, Petal length, Petal width.
-- **Target Variable**: Primarily used to classify iris species into three categories: Setosa, Versicolour, and Virginica. However, for regression purposes, we can predict **Sepal Length** or **Petal Length** based on the other features.
-- **Description**: While primarily used for classification tasks, the Iris dataset can also be adapted for linear regression, particularly for predicting continuous values like Sepal Length or Petal Length. It is a well-known dataset in machine learning due to its simplicity and versatility.
+- **Target Variable**: The iris species are mainly classified into three types. Setosa, Versicolour, and Virginica. But in case of regression, we can predict the value for **Sepal Length** or **Petal Length** based on other attributes.
+- **Description**: The Iris dataset may be used for classification tasks. However, it is very easily adapted to the linear regression where a continuous value like Sepal Length or Petal Length could be predicted. It's one of the most famous datasets in machine learning for its simplicity and flexibility.
 
 ### Dataset 2: Mushroom Classification Dataset
 - **Type**: Binary classification.
-- **Features**: Describes several physical characteristics of mushrooms such as cap shape, cap color, gill size, and odor.
-- **Target Variable**: The task is to predict whether a mushroom is **poisonous** or **edible**.
-- **Description**: This dataset contains detailed information about mushrooms and their physical features. It's a classic dataset for binary classification tasks and is often used to test the performance of machine learning models like logistic regression. 
+- **Features**: Describes different physical characteristics of mushrooms such as its cap shape, cap color, gill measurement, and scent.
+- **Target Variable**: To classify whether a mushroom is **poisonous** or **edible**.
+- **Description**: This dataset is a detailed description of mushrooms along with physical features. It serves as a classic example for binary classification tasks and often comes up in testing models like logistic regression.
 
 ## Project Objectives
 
-The objectives of this project are:
-1. To apply **Linear Regression** on the **Iris dataset** to predict Sepal Length or Petal Length based on other attributes and evaluate model performance.
-2. To use **Logistic Regression** on the **Mushroom Classification dataset** to predict whether a mushroom is poisonous or edible, and assess the accuracy of the model.
-3. To understand the underlying assumptions of both models and compare their use cases.
-4. To visualize data insights and model performance through graphs and metrics like R-squared, precision, recall, and ROC curve.
+The goals of this project are:
+
+1. Apply **Linear Regression** on **Iris dataset** to predict Sepal Length or Petal Length based on other attributes and assess the performance of models.
+3. Employ the **Mushroom Classification dataset** to apply **Logistic Regression** towards predicting whether the mushroom is poisonous or edible, along with its model accuracy.
+4. To understand the tacit assumptions of both models and compare usage in applications.
+5. To make interactive data insights, model performance through graphs and metrics including R-squared, precision, recall, and ROC (Receiver-Operating Characteristic) curve.
