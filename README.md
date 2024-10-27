@@ -30,3 +30,49 @@ The goals of this project are:
 3. Employ the **Mushroom Classification dataset** to apply **Logistic Regression** towards predicting whether the mushroom is poisonous or edible, along with its model accuracy.
 4. To understand the tacit assumptions of both models and compare usage in applications.
 5. To make interactive data insights, model performance through graphs and metrics including R-squared, precision, recall, and ROC (Receiver-Operating Characteristic) curve.
+
+## Methodology
+
+### Step 1: Import Necessary Libraries
+The analysis begins by importing essential libraries for data manipulation, visualization, and machine learning. This includes __Pandas__ for data manipulation, __Matplotlib__ and __Seaborn__ for visualization, and __Scikit-Learn__ for model building.
+
+![image](https://github.com/user-attachments/assets/0ade75cd-7c4c-4977-af2d-d7888126efb0)
+
+### Step 2: Load the Dataset 
+Load the Iris dataset, which contains information on 150 iris flowers from three species: Setosa, Versicolor, and Virginica. Each sample includes four features: sepal length, sepal width, petal length, and petal width.
+
+![image](https://github.com/user-attachments/assets/eac82cec-e363-47cc-b2e5-fc67d3d87fdc)
+
+Sample 10 rows of the dataset:
+
+![image](https://github.com/user-attachments/assets/abad9de1-f3a7-44f2-aeaa-0f5249780402) 
+
+### Step 3: Labeling and Rearrangement of dataset
+Labelling the dataset to easily identify the data of every columns. Also rearranging it by putting the __Dependent Variable__ in the last column.
+
+![image](https://github.com/user-attachments/assets/440247dc-fa17-4de9-8440-d5786916ade9)
+
+Rearrangement Output
+
+![image](https://github.com/user-attachments/assets/3f83adc7-ebb6-4de4-8cac-188fc0863d7f)
+
+
+### Step 4: Data Preprocessing
+__Check for missing values:__ Use .isnull().sum() to verify the data integrity.
+__Data types:__ Verify data types to ensure that features are numeric and the target label is categorical.
+__Encoding categorical variables (if necessary):__ In this dataset, the target label (species) may need encoding.
+
+![image](https://github.com/user-attachments/assets/016262a4-200f-4018-a3c8-62372d71720e)
+
+### Step 5: Feature Selection and Splitting Data
+Select features __(independent variables)__ and target label __(dependent variable)__.
+
+![image](https://github.com/user-attachments/assets/3eb5b18f-da6c-4fb9-b7a2-8945707a52e0)
+
+Splitting data into training and testing sets __(80% train, 20% test)__
+
+![image](https://github.com/user-attachments/assets/74ff4297-777d-4d33-a621-4d3212fee6f3)
+
+### Step 6: Model Selection and Training
+
+![image](https://github.com/user-attachments/assets/12a96d80-ccea-4af4-bd05-a20ff38c34e5)
