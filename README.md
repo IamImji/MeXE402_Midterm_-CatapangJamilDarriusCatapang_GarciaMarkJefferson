@@ -33,6 +33,8 @@ The goals of this project are:
 
 ## Methodology
 
+## Linear Regression - Iris Dataset
+
 ### Step 1: Import Necessary Libraries
 The analysis begins by importing essential libraries for data manipulation, visualization, and machine learning. This includes __Pandas__ for data manipulation, __Matplotlib__ and __Seaborn__ for visualization, and __Scikit-Learn__ for model building.
 
@@ -76,3 +78,33 @@ Splitting data into training and testing sets __(80% train, 20% test)__
 ### Step 6: Model Selection and Training
 
 ![image](https://github.com/user-attachments/assets/12a96d80-ccea-4af4-bd05-a20ff38c34e5)
+
+### Step 7: Model Evaluation
+
+![image](https://github.com/user-attachments/assets/ab1fc39c-ed52-47c4-aaa6-6bc258da25b7)
+
+![image](https://github.com/user-attachments/assets/33b83b50-9e40-4938-8bfd-207d15f80160)
+
+![image](https://github.com/user-attachments/assets/eaff7a9e-399d-4ad1-a9c7-092d197aed51)
+
+![image](https://github.com/user-attachments/assets/c91a7bbe-9475-4583-a35e-8d804a4c8ac4)
+
+### Step 8: Interpretation
+#### Get the coefficients of the model
+
+![image](https://github.com/user-attachments/assets/b31a5731-d666-4c41-ad2e-5efb25eaa70d)
+
+### Step 9: Visualization
+Visualizing the matrix to provide insight into the model's classification performance.
+
+#### Pairplot to visualize relationships between features
+
+![image](https://github.com/user-attachments/assets/4da26123-a508-4dba-9b96-24eb48905f37)
+
+#### Visual Representation
+
+![image](https://github.com/user-attachments/assets/5c2bc9be-bae2-45d5-b1b0-1549d7813f9f)
+
+
+
+
