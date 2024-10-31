@@ -34,12 +34,12 @@ The goals of this project are:
 
 ## Linear Regression - Iris Dataset
 
-### Step 1: Import Necessary Libraries
+### Import Necessary Libraries
 The analysis begins by importing essential libraries for data manipulation, visualization, and machine learning. This includes __Pandas__ for data manipulation, __Matplotlib__ and __Seaborn__ for visualization, and __Scikit-Learn__ for model building.
 
 ![image](https://github.com/user-attachments/assets/0ade75cd-7c4c-4977-af2d-d7888126efb0)
 
-### Step 2: Load the Dataset 
+### Load the Dataset 
 Load the Iris dataset, which contains information on 150 iris flowers from three species: Setosa, Versicolor, and Virginica. Each sample includes four features: sepal length, sepal width, petal length, and petal width.
 
 ![image](https://github.com/user-attachments/assets/eac82cec-e363-47cc-b2e5-fc67d3d87fdc)
@@ -48,7 +48,7 @@ __Sample 10 rows of the dataset:__
 
 ![image](https://github.com/user-attachments/assets/abad9de1-f3a7-44f2-aeaa-0f5249780402) 
 
-### Step 3: Labeling and Rearrangement of dataset
+### Labeling and Rearrangement of dataset
 Labelling the dataset to easily identify the data of every columns. Also rearranging it by putting the __Dependent Variable__ in the last column.
 
 ![image](https://github.com/user-attachments/assets/440247dc-fa17-4de9-8440-d5786916ade9)
@@ -58,14 +58,16 @@ __Rearrangement Output:__
 ![image](https://github.com/user-attachments/assets/3f83adc7-ebb6-4de4-8cac-188fc0863d7f)
 
 
-### Step 4: Data Preprocessing
+### Data Preprocessing
 __Check for missing values:__ Use .isnull().sum() to verify the data integrity.
+
 __Data types:__ Verify data types to ensure that features are numeric and the target label is categorical.
+
 __Encoding categorical variables (if necessary):__ In this dataset, the target label (species) may need encoding.
 
 ![image](https://github.com/user-attachments/assets/016262a4-200f-4018-a3c8-62372d71720e)
 
-### Step 5: Feature Selection and Splitting Data
+### Feature Selection and Splitting Data
 Select features __(independent variables)__ and target label __(dependent variable)__.
 
 ![image](https://github.com/user-attachments/assets/3eb5b18f-da6c-4fb9-b7a2-8945707a52e0)
@@ -76,7 +78,7 @@ Select features __(independent variables)__ and target label __(dependent variab
 
 ![image](https://github.com/user-attachments/assets/74ff4297-777d-4d33-a621-4d3212fee6f3)
 
-### Step 6: Model Selection and Training
+### Model Selection and Training
 
 Making fit for __Model Selection and Training__ to ensure the model accurately captures the relationships in the data while avoiding overfitting or underfitting.
 
@@ -84,7 +86,7 @@ Making fit for __Model Selection and Training__ to ensure the model accurately c
 
 ![image](https://github.com/user-attachments/assets/12a96d80-ccea-4af4-bd05-a20ff38c34e5)
 
-### Step 7: Model Evaluation
+### Model Evaluation
 
 > #### __Make predictions on the test set__
 > To assess how well the trained model generalizes to unseen data. Ensures the linear regression model performs well and generalizes to new data
@@ -126,7 +128,7 @@ To interpret the model’s parameters and make predictions on new data. Helps in
 ![image](https://github.com/user-attachments/assets/d07263ac-641a-4588-8d18-c9d5c693d482)
 
 
-### Step 8: Interpretation
+### Interpretation
 Shows insights on how each feature impacts the target variable and helps validate the model’s usefulness.
 
 #### Get the coefficients of the model
@@ -139,7 +141,7 @@ In linear regression, coefficients indicate the expected change in the target va
 
 ![image](https://github.com/user-attachments/assets/b31a5731-d666-4c41-ad2e-5efb25eaa70d)
 
-### Step 9: Visualization
+### Visualization
 Visualizing the matrix to provide insight into the model's classification performance.
 
 ##
