@@ -45,7 +45,7 @@ Load the Iris dataset, which contains information on 150 iris flowers from three
 
 ![image](https://github.com/user-attachments/assets/eac82cec-e363-47cc-b2e5-fc67d3d87fdc)
 
-Sample 10 rows of the dataset:
+__Sample 10 rows of the dataset:__
 
 ![image](https://github.com/user-attachments/assets/abad9de1-f3a7-44f2-aeaa-0f5249780402) 
 
@@ -54,7 +54,7 @@ Labelling the dataset to easily identify the data of every columns. Also rearran
 
 ![image](https://github.com/user-attachments/assets/440247dc-fa17-4de9-8440-d5786916ade9)
 
-Rearrangement Output
+__Rearrangement Output:__
 
 ![image](https://github.com/user-attachments/assets/3f83adc7-ebb6-4de4-8cac-188fc0863d7f)
 
@@ -81,13 +81,28 @@ Splitting data into training and testing sets __(80% train, 20% test)__
 
 ### Step 7: Model Evaluation
 
-![image](https://github.com/user-attachments/assets/ab1fc39c-ed52-47c4-aaa6-6bc258da25b7)
+#### __Make predictions on the test set__
 
-![image](https://github.com/user-attachments/assets/33b83b50-9e40-4938-8bfd-207d15f80160)
+#### Inference
 
-![image](https://github.com/user-attachments/assets/eaff7a9e-399d-4ad1-a9c7-092d197aed51)
+![image](https://github.com/user-attachments/assets/f183ace1-9dd1-44e0-a927-b108bb57b0e3)
 
-![image](https://github.com/user-attachments/assets/c91a7bbe-9475-4583-a35e-8d804a4c8ac4)
+![image](https://github.com/user-attachments/assets/9d651414-9de2-4ddf-8e2a-6dd2c24d0eb4)
+
+### Evaluation Metrics
+
+#### Calculated R-Squared (Accuracy)
+
+![image](https://github.com/user-attachments/assets/3209e0fc-fcbe-46d9-8118-c236f7baa699)
+
+#### Calculated Adjusted R-squared
+
+![image](https://github.com/user-attachments/assets/38e7e8ee-bee4-44de-8230-63c7d54333cf)
+
+#### Calculated Mean Squared Error
+
+![image](https://github.com/user-attachments/assets/d07263ac-641a-4588-8d18-c9d5c693d482)
+
 
 ### Step 8: Interpretation
 #### Get the coefficients of the model
