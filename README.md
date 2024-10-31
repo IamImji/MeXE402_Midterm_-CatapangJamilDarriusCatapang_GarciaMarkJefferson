@@ -188,7 +188,7 @@ __Interpretation:__ A high R-squared value (0.96) suggests a strong linear relat
 ##
 __2. Logistic Regression on the Mushroom Dataset__
 - __Goal:__ Classify mushrooms as __edible__ or __poisonous__ based on physical characteristics.
-- - __Data Preprocessing__:
+  - __Data Preprocessing__:
   - Checked for missing values and encoded categorical features.
  
 - __Model Performance__:
@@ -207,7 +207,7 @@ __2. Logistic Regression on the Mushroom Dataset__
 
 </div>
 
-__Interpretation:__ High accuracy (Accuracy Value?) indicates the model is reliable in predicting poisonous mushrooms. 
+__Interpretation:__ High accuracy (0.95) indicates the model is reliable in predicting poisonous mushrooms. 
 
 ## ___Comparative Insights and Interpretations___
 
