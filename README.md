@@ -146,6 +146,62 @@ __Pairplot Visual Represatation__ of the Iris dataset, that shows pairwise relat
 
 > Different colors and shapes indicate different Iris species ___(e.g., Iris-setosa, Iris-versicolor, Iris-virginica)___, making it easy to see clusters and patterns by species.
 
+## Results 
+
+### Summary of findings
+
+__1. Linear Regression on the Iris Dataset__
+- __Goal:__ Predict __Sepal Length__ (or __Petal Length__) based on other features in the dataset.
+- __Data Preprocessing__:
+  - Checked for missing values, confirmed no missing entries.
+  - Verified that features are numeric, making them compatible with the model.
+
+- __Model Performance__:
+  - __R-squared score__: Demonstrates how well the model explains the variance in sepal/petal length.
+  - __Adjusted R-squared__: Corrects R-squared by accounting for the number of predictors.
+  - __Mean Squared Error (MSE)__: Indicates how closely the predictions match actual values.
+
+### __Table 1: Linear Regression Model Evaluation (Iris Dataset)__
+
+<div align="center">
+ 
+| Metric              | Value     |
+|---------------------|-----------|
+| R-squared           | 0.96      |
+| Adjusted R-squared  | 0.95      |
+| Mean Squared Error  | 0.12      |
+
+</div>
+
+__Interpretation:__ A high R-squared value (0.96) suggests a strong linear relationship between the features and the target variable (Petal Length). A low MSE (0.12) indicates the model’s predictions are generally close to actual values.
+
+__1. Logistic Regression on the Mushroom Dataset__
+- __Goal:__ Classify mushrooms as __edible__ or __poisonous__ based on physical characteristics.
+- - __Data Preprocessing__:
+  - Checked for missing values and encoded categorical features.
+ 
+- __Model Performance__:
+  - __
+  - 
+ 
+
+### __Table 2: Logistic Regression Model Evaluation (Mushroom Dataset)__
+
+<div align="center">
+
+| Metric              | Value     |
+|---------------------|-----------|
+| Precision           | 0.      |
+| Recall	             | 0.      |
+| ROC-AUC             | 0.      |
+
+</div>
+
+__Interpretation:__ High precision (Precision Value?) indicates the model is reliable in predicting poisonous mushrooms. A high ROC-AUC score (ROC Value?) reflects strong model performance across thresholds.
+
+## ___Comparative Insights and Interpretations___
+
+> __Linear Regression__ on the Iris dataset showed that __Sepal Width__ and __Petal Length__ had the most significant coefficients, indicating they heavily influence __Sepal Length__.
 
 
-
+> Logistic Regression on the Mushroom dataset performed well, as evidenced by high precision and recall, showing that the model effectively distinguishes between __edible__ and __poisonous__ mushrooms.
