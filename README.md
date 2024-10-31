@@ -99,6 +99,15 @@ To interpret the model’s parameters and make predictions on new data. Helps in
 
 ![image](https://github.com/user-attachments/assets/9d651414-9de2-4ddf-8e2a-6dd2c24d0eb4)
 
+##
+#### Making the prediction of a single data point with SL = 5.1, SW = 3.5 , PW = 1.0
+
+![image](https://github.com/user-attachments/assets/0667c52f-9716-465e-a807-41d45300f4cb)
+
+> #### __Detailed Explanation__
+> The __Petal Length__ output value, __2.63__, is predicted based on the input values for __sepal length__, __sepal width__, and __petal width__. This prediction reflects the linear relationships the model learned from the data, with each input feature contributing to the predicted value through its coefficient. The accuracy of this prediction depends on how well the model is generalized.
+
+##
 ### Evaluation Metrics
  
 
@@ -208,6 +217,8 @@ The linear regression model was applied to predict Petal Length based on various
 
 Among the features, Sepal Length and Petal Width emerged as the most significant predictors. Their positive coefficients indicate a direct relationship: as either feature increases, so does the Petal Length. Conversely, Sepal Width had a negative coefficient, suggesting a lesser influence on the target variable.
 
-The Adjusted R-squared value of 0.95 confirms the model's robustness when considering the number of predictors. This metric is particularly useful for evaluating models with multiple independent variables, as it penalizes excessive use of non-informative predictors. The low Mean Squared Error (MSE) of 0.12 further signifies the model’s accuracy in making predictions, as it reflects the average squared differences between predicted and actual values.
+The __Adjusted R-squared__ value of 0.95 confirms the model's robustness when considering the number of predictors. This metric is particularly useful for evaluating models with multiple independent variables, as it penalizes excessive use of non-informative predictors. The low Mean Squared Error (MSE) of 0.12 further signifies the model’s accuracy in making predictions, as it reflects the average squared differences between predicted and actual values.
 
-__Logistic Regression__ on the Mushroom dataset performed well, as evidenced by high precision and recall, showing that the model effectively distinguishes between __edible__ and __poisonous__ mushrooms.
+__2. Logistic Regression on the Iris Dataset:__
+
+The Logistic Regression on the Mushroom dataset performed well, as evidenced by high accuracy, showing that the model effectively distinguishes between __edible__ and __poisonous__ mushrooms.
