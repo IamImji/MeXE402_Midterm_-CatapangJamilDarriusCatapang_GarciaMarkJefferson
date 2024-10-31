@@ -222,3 +222,8 @@ The __Adjusted R-squared__ value of 0.95 confirms the model's robustness when co
 __2. Logistic Regression on the Mushroom Classification Dataset:__
 
 The Logistic Regression on the Mushroom dataset performed well, as evidenced by high accuracy, showing that the model effectively distinguishes between __edible__ and __poisonous__ mushrooms.
+The logistic regression model was employed to classify mushrooms as either edible or poisonous based on various features, including cap shape, bruises, odor, and habitat. The model achieved an accuracy score of 95.69%, indicating that it correctly identified nearly 96% of the mushrooms in the test set. This high accuracy reflects the effectiveness of the selected features in predicting mushroom edibility.
+
+Among the features, odor and gill color emerged as significant predictors. Specific odors and cap colors showed strong correlations with a poisonous classification, highlighting their importance in the model's decision-making process.
+
+Accuracy score was consistent with the overall accuracy, indicating the model's stability in handling 23 categorical features. The low error rates further reinforce the model's reliability, as it effectively utilizes the data to provide trustworthy classifications.
