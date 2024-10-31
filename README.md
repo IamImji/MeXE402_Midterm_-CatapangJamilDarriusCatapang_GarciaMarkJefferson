@@ -152,6 +152,11 @@ __Scatter Plot of Petal Length as Dependent Variable__
 
 > The __Scatter Plot__ effectively shows the relationship between two continuous variables, __petal length__ (the dependent variable) and each feature (__sepal length, sepal width, and petal width__). This plot shows how the dependent variable changes in response to each independent variable, which helps assess patterns in the data. The plot allow us to see if the data approximately forms a straight line, confirming whether linear regression is a good fit. By overlaying a regression line on a scatter plot, we can visually assess the model's fit to the data, which helps to interpret how well each independent variable explains changes in the dependent variable.
 
+## Logistic Regression - Mushrooms
+
+### Importing Libraries and Dataset
+The analysis began by importing the necessary libraries, with pandas being the primary library used for data manipulation. We loaded the dataset into a DataFrame using the pd.read_csv() function, which allows us to read data from a CSV file easily. This step is essential as it provides the foundation for further analysis.
+
 ## Results 
 
 ### Summary of findings
