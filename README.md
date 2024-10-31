@@ -199,7 +199,9 @@ __2. Logistic Regression on the Mushroom Dataset__
 
 | Metric              | Value     |
 |---------------------|-----------|
-| Accuracy            | 0.95     |
+| Accuracy            | 0.95      |
+|---------------------|-----------|
+| Accuracy Score      | 0.95      |
 
 
 </div>
