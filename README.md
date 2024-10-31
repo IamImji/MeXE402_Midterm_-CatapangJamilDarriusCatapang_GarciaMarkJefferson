@@ -71,41 +71,63 @@ Select features __(independent variables)__ and target label __(dependent variab
 
 ![image](https://github.com/user-attachments/assets/3eb5b18f-da6c-4fb9-b7a2-8945707a52e0)
 
-Splitting data into training and testing sets __(80% train, 20% test)__
+#### Splitting data into training and testing sets __(80% train, 20% test)__
+
+> __Training set (80%)__, where the model "learns" the correlations and adjusts its parameters to minimize errors. __The Testing set (20%)__ helps assess how well the model generalizes to new data, ensuring it hasn’t just memorized the training data but can make accurate predictions on unknown data.
 
 ![image](https://github.com/user-attachments/assets/74ff4297-777d-4d33-a621-4d3212fee6f3)
 
 ### Step 6: Model Selection and Training
 
+Making fit for __Model Selection and Training__ to ensure the model accurately captures the relationships in the data while avoiding overfitting or underfitting.
+
+> __fit__ is a method inside LinearRegression class - they are like functions.
+
 ![image](https://github.com/user-attachments/assets/12a96d80-ccea-4af4-bd05-a20ff38c34e5)
 
 ### Step 7: Model Evaluation
 
-#### __Make predictions on the test set__
+> #### __Make predictions on the test set__
+> To assess how well the trained model generalizes to unseen data. Ensures the linear regression model performs well and generalizes to new data
+
 
 #### Inference
+
+To interpret the model’s parameters and make predictions on new data. Helps interpret how each feature impacts the target variable.
 
 ![image](https://github.com/user-attachments/assets/f183ace1-9dd1-44e0-a927-b108bb57b0e3)
 
 ![image](https://github.com/user-attachments/assets/9d651414-9de2-4ddf-8e2a-6dd2c24d0eb4)
 
 ### Evaluation Metrics
+ 
 
-#### Calculated R-Squared (Accuracy)
+> #### Calculated R-Squared (Accuracy)
+> Measure of the proportion of variance in the target variable that the model explains. 
 
 ![image](https://github.com/user-attachments/assets/3209e0fc-fcbe-46d9-8118-c236f7baa699)
 
-#### Calculated Adjusted R-squared
+> #### Calculated Adjusted R-squared
+> Number of predictors in the model. It helps to make a better choice when comparing models with different numbers of features. 
 
 ![image](https://github.com/user-attachments/assets/38e7e8ee-bee4-44de-8230-63c7d54333cf)
 
-#### Calculated Mean Squared Error
+> #### Calculated Mean Squared Error
+> Representation of the average squared errors between actual and predicted values
 
 ![image](https://github.com/user-attachments/assets/d07263ac-641a-4588-8d18-c9d5c693d482)
 
 
 ### Step 8: Interpretation
+Shows insights on how each feature impacts the target variable and helps validate the model’s usefulness.
+
 #### Get the coefficients of the model
+In linear regression, coefficients indicate the expected change in the target variable for a one-unit change in the feature, holding other features constant. Coefficients can be interpreted as __Positive__ and __Negative__ Coefficients.
+
+> __Positive coefficient:__ Suggests a direct relationship between the feature and target variable.
+
+> __Negative coefficient:__ Indicates an inverse relationship.
+
 
 ![image](https://github.com/user-attachments/assets/b31a5731-d666-4c41-ad2e-5efb25eaa70d)
 
@@ -118,7 +140,11 @@ Visualizing the matrix to provide insight into the model's classification perfor
 
 #### Visual Representation
 
+__Pairplot Visual Represatation__ of the Iris dataset, that shows pairwise relationships among features like sepal length, sepal width, petal length, and petal width across three species of Iris flowers.
+
 ![image](https://github.com/user-attachments/assets/5c2bc9be-bae2-45d5-b1b0-1549d7813f9f)
+
+> Different colors and shapes indicate different Iris species ___(e.g., Iris-setosa, Iris-versicolor, Iris-virginica)___, making it easy to see clusters and patterns by species.
 
 
 
