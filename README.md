@@ -143,17 +143,14 @@ In linear regression, coefficients indicate the expected change in the target va
 ### Step 9: Visualization
 Visualizing the matrix to provide insight into the model's classification performance.
 
-#### Pairplot to visualize relationships between features
-
-![image](https://github.com/user-attachments/assets/4da26123-a508-4dba-9b96-24eb48905f37)
-
+##
 #### Visual Representation
 
-__Pairplot Visual Represatation__ of the Iris dataset, that shows pairwise relationships among features like sepal length, sepal width, petal length, and petal width across three species of Iris flowers.
+__Scatter Plot of Petal Length as Dependent Variable__ 
 
-![image](https://github.com/user-attachments/assets/5c2bc9be-bae2-45d5-b1b0-1549d7813f9f)
+![image](https://github.com/user-attachments/assets/24b8a3c9-a176-4c57-9952-ccae83d3540b)
 
-> Different colors and shapes indicate different Iris species ___(e.g., Iris-setosa, Iris-versicolor, Iris-virginica)___, making it easy to see clusters and patterns by species.
+> The __Scatter Plot__ effectively shows the relationship between two continuous variables, __petal length__ (the dependent variable) and each feature (__sepal length, sepal width, and petal width__). This plot shows how the dependent variable changes in response to each independent variable, which helps assess patterns in the data. The plot allow us to see if the data approximately forms a straight line, confirming whether linear regression is a good fit. By overlaying a regression line on a scatter plot, we can visually assess the model's fit to the data, which helps to interpret how well each independent variable explains changes in the dependent variable.
 
 ## Results 
 
@@ -169,12 +166,12 @@ __1. Linear Regression on the Iris Dataset__
   - __R-squared score__: Demonstrates how well the model explains the variance in sepal/petal length.
   - __Adjusted R-squared__: Corrects R-squared by accounting for the number of predictors.
   - __Mean Squared Error (MSE)__: Indicates how closely the predictions match actual values.
-
+##
 ### __Table 1: Linear Regression Model Evaluation (Iris Dataset)__
 
 <div align="center">
  
-| Metric              | Value     |
+| __Metric__          | __Value__ |
 |---------------------|-----------|
 | R-squared           | 0.96      |
 | Adjusted R-squared  | 0.95      |
@@ -195,7 +192,7 @@ __2. Logistic Regression on the Mushroom Dataset__
   - __
   - 
  
-
+##
 ### __Table 2: Logistic Regression Model Evaluation (Mushroom Dataset)__
 
 <div align="center">
@@ -209,7 +206,8 @@ __2. Logistic Regression on the Mushroom Dataset__
 
 __Interpretation:__ High accuracy (0.95) indicates the model is reliable in predicting poisonous mushrooms. 
 
-## ___Comparative Insights and Interpretations___
+##
+ ___Comparative Insights and Interpretations___
 
 __1. Linear Regression on the Iris Dataset:__
 
@@ -219,6 +217,6 @@ Among the features, Sepal Length and Petal Width emerged as the most significant
 
 The __Adjusted R-squared__ value of 0.95 confirms the model's robustness when considering the number of predictors. This metric is particularly useful for evaluating models with multiple independent variables, as it penalizes excessive use of non-informative predictors. The low Mean Squared Error (MSE) of 0.12 further signifies the model’s accuracy in making predictions, as it reflects the average squared differences between predicted and actual values.
 
-__2. Logistic Regression on the Iris Dataset:__
+__2. Logistic Regression on the Mushroom Classification Dataset:__
 
 The Logistic Regression on the Mushroom dataset performed well, as evidenced by high accuracy, showing that the model effectively distinguishes between __edible__ and __poisonous__ mushrooms.
