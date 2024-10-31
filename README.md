@@ -213,7 +213,7 @@ __Interpretation:__ High accuracy (0.95) indicates the model is reliable in pred
 
 __1. Linear Regression on the Iris Dataset:__
 
-The linear regression model was applied to predict Petal Length based on various features like Sepal Width, Sepal Length, and Petal Width. The model achieved an R-squared value of 0.85, indicating that approximately 85% of the variance in Petal Length can be explained by the input features. This strong correlation suggests that the selected features are effective predictors.
+The linear regression model was applied to predict Petal Length based on various features like Sepal Width, Sepal Length, and Petal Width. The model achieved an R-squared value of 0.96, indicating that approximately 96% of the variance in Petal Length can be explained by the input features. This strong correlation suggests that the selected features are effective predictors.
 
 Among the features, Sepal Length and Petal Width emerged as the most significant predictors. Their positive coefficients indicate a direct relationship: as either feature increases, so does the Petal Length. Conversely, Sepal Width had a negative coefficient, suggesting a lesser influence on the target variable.
 
