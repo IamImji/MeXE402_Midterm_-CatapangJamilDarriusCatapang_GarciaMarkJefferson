@@ -289,8 +289,8 @@ __2. Logistic Regression on the Mushroom Dataset__
   - Checked for missing values and encoded categorical features.
  
 - __Model Performance__:
-  - Accuracy :
-  - Accuracy Score :
+  - Accuracy : The metric reflects the proportion of correctly classified mushrooms (both __edible__ and __poisonous__) out of the total. A high accuracy, 0.96, would suggest that the model is reliable in overall classification performance.
+
  
 ##
 ### __Table 2: Logistic Regression Model Evaluation (Mushroom Dataset)__
