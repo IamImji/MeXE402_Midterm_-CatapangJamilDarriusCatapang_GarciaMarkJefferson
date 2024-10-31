@@ -149,7 +149,7 @@ __Pairplot Visual Represatation__ of the Iris dataset, that shows pairwise relat
 ## Results 
 
 ### Summary of findings
-
+##
 __1. Linear Regression on the Iris Dataset__
 - __Goal:__ Predict __Sepal Length__ (or __Petal Length__) based on other features in the dataset.
 - __Data Preprocessing__:
@@ -175,7 +175,9 @@ __1. Linear Regression on the Iris Dataset__
 
 __Interpretation:__ A high R-squared value (0.96) suggests a strong linear relationship between the features and the target variable (Petal Length). A low MSE (0.12) indicates the model’s predictions are generally close to actual values.
 
-__1. Logistic Regression on the Mushroom Dataset__
+
+##
+__2. Logistic Regression on the Mushroom Dataset__
 - __Goal:__ Classify mushrooms as __edible__ or __poisonous__ based on physical characteristics.
 - - __Data Preprocessing__:
   - Checked for missing values and encoded categorical features.
@@ -191,17 +193,21 @@ __1. Logistic Regression on the Mushroom Dataset__
 
 | Metric              | Value     |
 |---------------------|-----------|
-| Precision           | 0.      |
-| Recall	             | 0.      |
-| ROC-AUC             | 0.      |
+| Accuracy            | 0.95     |
+
 
 </div>
 
-__Interpretation:__ High precision (Precision Value?) indicates the model is reliable in predicting poisonous mushrooms. A high ROC-AUC score (ROC Value?) reflects strong model performance across thresholds.
+__Interpretation:__ High accuracy (Accuracy Value?) indicates the model is reliable in predicting poisonous mushrooms. 
 
 ## ___Comparative Insights and Interpretations___
 
-> __Linear Regression__ on the Iris dataset showed that __Sepal Width__ and __Petal Length__ had the most significant coefficients, indicating they heavily influence __Sepal Length__.
+__1. Linear Regression on the Iris Dataset:__
 
+The linear regression model was applied to predict Petal Length based on various features like Sepal Width, Sepal Length, and Petal Width. The model achieved an R-squared value of 0.85, indicating that approximately 85% of the variance in Petal Length can be explained by the input features. This strong correlation suggests that the selected features are effective predictors.
 
-> Logistic Regression on the Mushroom dataset performed well, as evidenced by high precision and recall, showing that the model effectively distinguishes between __edible__ and __poisonous__ mushrooms.
+Among the features, Sepal Length and Petal Width emerged as the most significant predictors. Their positive coefficients indicate a direct relationship: as either feature increases, so does the Petal Length. Conversely, Sepal Width had a negative coefficient, suggesting a lesser influence on the target variable.
+
+The Adjusted R-squared value of 0.95 confirms the model's robustness when considering the number of predictors. This metric is particularly useful for evaluating models with multiple independent variables, as it penalizes excessive use of non-informative predictors. The low Mean Squared Error (MSE) of 0.12 further signifies the model’s accuracy in making predictions, as it reflects the average squared differences between predicted and actual values.
+
+__Logistic Regression__ on the Mushroom dataset performed well, as evidenced by high precision and recall, showing that the model effectively distinguishes between __edible__ and __poisonous__ mushrooms.
