@@ -29,8 +29,7 @@ The goals of this project are:
 1. Apply **Linear Regression** on **Iris dataset** to predict Sepal Length or Petal Length based on other attributes and assess the performance of models.
 3. Employ the **Mushroom Classification dataset** to apply **Logistic Regression** towards predicting whether the mushroom is poisonous or edible, along with its model accuracy.
 4. To understand the tacit assumptions of both models and compare usage in applications.
-5. To make interactive data insights, model performance through graphs and metrics including R-squared, precision, recall, and ROC (Receiver-Operating Characteristic) curve.
-
+5. To make interactive data insights, model performance through graphs and metrics including R-squared, Accuracy.
 ## Methodology
 
 ## Linear Regression - Iris Dataset
