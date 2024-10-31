@@ -157,6 +157,9 @@ __Scatter Plot of Petal Length as Dependent Variable__
 ### Importing Libraries and Dataset
 The analysis began by importing the necessary libraries, with pandas being the primary library used for data manipulation. We loaded the dataset into a DataFrame using the pd.read_csv() function, which allows us to read data from a CSV file easily. This step is essential as it provides the foundation for further analysis.
 
+
+![image](https://github.com/user-attachments/assets/8089acfe-6be2-4783-8cb7-45f7a0cfce6c)
+
 ## Results 
 
 ### Summary of findings
