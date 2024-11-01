@@ -61,8 +61,6 @@ __Rearrangement Output:__
 ### Data Preprocessing
 __Check for missing values:__ Use .isnull().sum() to verify the data integrity.
 
-__Data types:__ Verify data types to ensure that features are numeric and the target label is categorical.
-
 __Encoding categorical variables (if necessary):__ In this dataset, the target label (species) may need encoding.
 
 ![image](https://github.com/user-attachments/assets/016262a4-200f-4018-a3c8-62372d71720e)
@@ -197,59 +195,70 @@ After ensuring the data was clean, we separated the independent variables (featu
 To evaluate the performance of our model accurately, we divided the dataset into two parts: training and testing. We used train_test_split to create these sets, with an 80-20 split, meaning 80% of the data was used for training the model, and 20% was reserved for testing it. This separation is important because it allows us to train the model on one set of data and then evaluate its performance on a different, unseen set.
 
 
-![image](https://github.com/user-attachments/assets/c560a328-cbc1-48a4-865c-5798338a1467)
+![image](https://github.com/user-attachments/assets/ef7805d4-7d0c-4cb2-b451-bc4be7839b0c)
+
 
 
 ### Feature Scaling
 To ensure that all features contribute equally to the model's predictions, we standardized the features using StandardScaler. This process adjusts the features so they have a mean of 0 and a standard deviation of 1. Feature scaling is particularly important for algorithms like logistic regression, as it can improve the model’s performance and convergence speed.
 
 
-![image](https://github.com/user-attachments/assets/047f70a8-b2f4-48a0-a580-88d0337a9d9c)
+![image](https://github.com/user-attachments/assets/4a9d51c2-fcb2-4c8c-b481-a74e62fcff45)
 
-
-
-## Building and Training the Model
+##
+### Building and Training the Model
 After preprocessing the data, we moved on to building and training the model.
 
-### Logistic Regression
+#### Logistic Regression
 We chose logistic regression as our classification algorithm because it is a widely used method for binary classification problems. We initialized the logistic regression model and trained it using the training dataset. During this training process, the model learned the relationships between the features and the target variable, allowing it to make predictions based on the input data.
 
 
-![image](https://github.com/user-attachments/assets/8a92150a-b7aa-44f8-9d18-1e17c4ca2b5b)
+![image](https://github.com/user-attachments/assets/4a6aaf21-255e-4a87-b5a6-f3d4a0b83f58)
+
 
 
 ###  Making Predictions
 Once the model was trained, we used it to make predictions on the test set. This step is crucial for assessing how well our model generalizes to new data. We also demonstrated how to predict the outcome for a single data point to illustrate the model's practical application.
 
 
-![image](https://github.com/user-attachments/assets/694fcdb2-3065-4b6a-8425-6c82f51dc565)
+![image](https://github.com/user-attachments/assets/6c119c8b-1d0d-4e0b-81b2-1551ef03735d)
+
+__List of Variables use in prediction__
+
 ![image](https://github.com/user-attachments/assets/72b1636d-9bb1-43f9-8c78-80560513c539)
 
 
-
-##  Evaluating the Model
+##
+### Evaluating the Model
 The final step involved evaluating the model's performance to determine its effectiveness.
 
 ### Confusion Matrix
 To evaluate the predictions, we calculated and displayed a confusion matrix. This matrix provides a visual representation of the model's performance, showing the number of true positives, true negatives, false positives, and false negatives. Analyzing this matrix helps us understand how well the model is performing and where it may be making errors.
 
 
-![image](https://github.com/user-attachments/assets/684a3217-8b47-4c97-a843-44169f17d1c6)
+![image](https://github.com/user-attachments/assets/1df0b736-44db-4503-8323-6d2abb60d894)
+
 
 
 ### Accuracy Calculation
 We computed the accuracy of the model, both manually and using the accuracy_score() function. Accuracy is a simple yet powerful metric that indicates the proportion of correct predictions made by the model. This step is crucial in determining how reliable the model is for making predictions.
 
 
-![image](https://github.com/user-attachments/assets/1665725b-c269-466a-971a-9fd8cd362e3e)
+![image](https://github.com/user-attachments/assets/39f93ca0-3845-43e8-9dc2-efa923eb9826)
+
 
 
 ### Visualizing the Confusion Matrix
 To make the performance of the model even clearer, we visualized the confusion matrix using a heatmap. This graphical representation allows us to quickly identify areas where the model is performing well and where it might be struggling, making it easier to communicate results to others.
 
 
-![image](https://github.com/user-attachments/assets/ba65c72a-8894-425d-b3c0-b3f72b9033bb)
-![image](https://github.com/user-attachments/assets/23e5bb0c-ed01-4037-bab0-e5a78359e861)
+![image](https://github.com/user-attachments/assets/70eff950-4872-47f4-b117-7f9249eed7fc)
+
+__Confusion Matrix Edible and Poisonous Mushroom__
+
+![image](https://github.com/user-attachments/assets/34b5d1fb-16a1-4cdd-9a2f-22152d724587)
+
+> Confusion Matrix shows the exact number of correctly classified instances for each class, 820 for __class 0__ (__Edible__) and 735 __class 1__ (__Poisonous__) This helps understand how well the model distinguishes between __edible__ and __poisonous__ mushrooms. It highlights the number of misclassifications, 32 for __Class 0__ misclassified as __Class 1__ and 38 for __Class 1__ misclassified as __Class 0__. This allows us to assess where the model might need improvement, which is crucial in datasets like mushrooms, where misclassifying a poisonous mushroom as edible can have serious consequences.
 
 
 
