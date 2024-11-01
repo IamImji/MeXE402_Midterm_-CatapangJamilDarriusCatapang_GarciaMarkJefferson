@@ -61,8 +61,6 @@ __Rearrangement Output:__
 ### Data Preprocessing
 __Check for missing values:__ Use .isnull().sum() to verify the data integrity.
 
-__Encoding categorical variables (if necessary):__ In this dataset, the target label (species) may need encoding.
-
 ![image](https://github.com/user-attachments/assets/016262a4-200f-4018-a3c8-62372d71720e)
 
 ### Feature Selection and Splitting Data
