@@ -91,7 +91,7 @@ Making fit for __Model Selection and Training__ to ensure the model accurately c
 
 #### Inference
 
-To interpret the model’s parameters and make predictions on new data. Helps interpret how each feature impacts the target variable.
+To interpret the model’s parameters and make predictions on new data. It helps to interpret how each feature impacts the target variable.
 
 ![image](https://github.com/user-attachments/assets/f183ace1-9dd1-44e0-a927-b108bb57b0e3)
 
