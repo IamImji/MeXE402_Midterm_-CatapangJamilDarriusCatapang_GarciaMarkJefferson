@@ -30,10 +30,11 @@ The goals of this project are:
 3. Employ the **Mushroom Classification dataset** to apply **Logistic Regression** towards predicting whether the mushroom is poisonous or edible, along with its model accuracy.
 4. To understand the tacit assumptions of both models and compare usage in applications.
 5. To make interactive data insights, model performance through graphs and metrics including R-squared, Accuracy.
+
 ## Methodology
 
-## Linear Regression - Iris Dataset
-
+### Linear Regression - Iris Dataset
+##
 ### Import Necessary Libraries
 The analysis begins by importing essential libraries for data manipulation, visualization, and machine learning. This includes __Pandas__ for data manipulation, __Matplotlib__ and __Seaborn__ for visualization, and __Scikit-Learn__ for model building.
 
