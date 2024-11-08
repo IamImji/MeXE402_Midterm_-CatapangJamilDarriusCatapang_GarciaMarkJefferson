@@ -4,9 +4,9 @@
 
 This paper highlights the basics of two such techniques known as **Linear Regression** and **Logistic Regression**. These are two of the most critical techniques in machine learning and data analysis.
 
-- **Linear Regression**: This is a supervised learning algorithm that makes predictions on continuous output based on one or multiple input variables. It assumes a linear relationship between input features and target outputs.
+- **Linear Regression**: A key data science tool for predicting continuous outcomes. This guide explains its principles, uses, and how to implement it in Python with real data. It covers simple and multiple linear regression, highlighting their importance, limitations, and practical examples.
 
-- **Logistic Regression**: one class of algorithms where the outcomes will depict how likely it is that something might happen or not. Logistic regression does differ with linear regression since, instead of predicting a value, it predicts discrete values like 0 or 1, and it uses the sigmoid function to approximate an event's probability.
+- **Logistic Regression**: It is used to examine the association of (categorical or continuous) independent variable(s) with one dichotomous dependent variable. This is in contrast to linear regression analysis in which the dependent variable is a continuous variable.
 
 ## Dataset Description
 
@@ -341,6 +341,12 @@ Accuracy score was consistent with the overall accuracy, indicating the model's 
 ##
 ###___References___
 
-Iris Dataset. (2017, August 3). Kaggle. https://www.kaggle.com/datasets/vikrishnan/iris-dataset 
+Kavita. (2024, September 30). Linear Regression: _A Comprehensive guide. Analytics Vidhya_. https://www.analyticsvidhya.com/blog/2021/10/everything-you-need-to-know-about-linear-regression/
 
-Mushroom classification. (2016, December 1). Kaggle. https://www.kaggle.com/datasets/uciml/mushroom-classification
+Leon A. (2022). _Logistic Regression Analysis_.https://www.sciencedirect.com/topics/medicine-and-dentistry/logistic-regression-analysis
+
+Iris Dataset. (2017, August 3). _Kaggle_. https://www.kaggle.com/datasets/vikrishnan/iris-dataset 
+
+Mushroom classification. (2016, December 1). _Kaggle_. https://www.kaggle.com/datasets/uciml/mushroom-classification
+
+
