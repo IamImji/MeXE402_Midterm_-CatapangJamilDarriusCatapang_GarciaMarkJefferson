@@ -337,3 +337,10 @@ The logistic regression model was employed to classify mushrooms as either edibl
 Among the features, odor and gill color emerged as significant predictors. Specific odors and cap colors showed strong correlations with a poisonous classification, highlighting their importance in the model's decision-making process.
 
 Accuracy score was consistent with the overall accuracy, indicating the model's stability in handling 23 categorical features. The low error rates further reinforce the model's reliability, as it effectively utilizes the data to provide trustworthy classifications.
+
+##
+###___References___
+
+Iris Dataset. (2017, August 3). Kaggle. https://www.kaggle.com/datasets/vikrishnan/iris-dataset 
+
+Mushroom classification. (2016, December 1). Kaggle. https://www.kaggle.com/datasets/uciml/mushroom-classification
