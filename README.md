@@ -339,7 +339,7 @@ Among the features, odor and gill color emerged as significant predictors. Speci
 Accuracy score was consistent with the overall accuracy, indicating the model's stability in handling 23 categorical features. The low error rates further reinforce the model's reliability, as it effectively utilizes the data to provide trustworthy classifications.
 
 ##
-###___References___
+### ___References___
 
 Kavita. (2024, September 30). Linear Regression: _A Comprehensive guide. Analytics Vidhya_. https://www.analyticsvidhya.com/blog/2021/10/everything-you-need-to-know-about-linear-regression/
 
